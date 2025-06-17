@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBDEVP - Full Stack Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <span>&lt;</span>
+            <span>WEBDEVP</span>
+            <span>/&gt;</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>&lt;WEBDEVP/&gt;</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-greeting">
+                    <span class="wave">👋</span>
+                    <span>Hello, I'm</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="highlight">WEB</span>DEVP
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Passionate full-stack developer ready to bring your digital ideas to life. 
+                    I create modern, responsive, and user-friendly web applications that make an impact.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        Let's Work Together
+                    </a>
+                    <a href="#about" class="btn btn-secondary">
+                        <i class="fas fa-user"></i>
+                        Learn More
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <h3>Fresh</h3>
+                        <p>Perspective</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10+</h3>
+                        <p>Technologies</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Dedication</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-controls">
+                            <span class="control close"></span>
+                            <span class="control minimize"></span>
+                            <span class="control maximize"></span>
+                        </div>
+                        <div class="window-title">portfolio.js</div>
+                    </div>
+                    <div class="code-content">
+                        <div class="code-line">
+                            <span class="line-number">1</span>
+                            <span class="code-text">
+                                <span class="keyword">const</span> 
+                                <span class="variable">developer</span> = {
+                            </span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">2</span>
+                            <span class="code-text">
+                                &nbsp;&nbsp;<span class="property">name</span>: 
+                                <span class="string">'WEBDEVP'</span>,
+                            </span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">3</span>
+                            <span class="code-text">
+                                &nbsp;&nbsp;<span class="property">skills</span>: [
+                                <span class="string">'React'</span>, 
+                                <span class="string">'Node.js'</span>],
+                            </span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">4</span>
+                            <span class="code-text">
+                                &nbsp;&nbsp;<span class="property">passion</span>: 
+                                <span class="string">'Creating Amazing Web Apps'</span>
+                            </span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">5</span>
+                            <span class="code-text">};</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-elements">
+                    <div class="floating-icon" style="--delay: 0s">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="floating-icon" style="--delay: 1s">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <div class="floating-icon" style="--delay: 2s">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="floating-icon" style="--delay: 3s">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get to know me</span>
+                <h2>About Me</h2>
+                <p>Turning ideas into digital reality</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/webdevelopment2.jpg-yNqKIHHtRjOXHYrgjGUhD0Q4BCcKQ0.jpeg" alt="Web Development Process" />
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <i class="fas fa-code"></i>
+                                <p>Crafting Digital Experiences</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Fresh Talent, <span class="highlight">Big Dreams</span></h3>
+                    <p>
+                        I'm a passionate web developer at the beginning of an exciting journey in the tech world. 
+                        While I may be new to the professional scene, my enthusiasm for creating innovative web 
+                        solutions is boundless.
+                    </p>
+                    <p>
+                        I believe that fresh perspectives bring fresh solutions. My approach combines modern 
+                        technologies with creative problem-solving to deliver websites and applications that 
+                        not only look great but perform exceptionally.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <div>
+                                <h4>Creative Problem Solver</h4>
+                                <p>I approach every challenge with fresh eyes and innovative thinking</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-rocket"></i>
+                            <div>
+                                <h4>Quick Learner</h4>
+                                <p>Always eager to master new technologies and stay ahead of trends</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-heart"></i>
+                            <div>
+                                <h4>Passionate Developer</h4>
+                                <p>Every line of code is written with dedication and attention to detail</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">My Arsenal</span>
+                <h2>Technical Skills</h2>
+                <p>Technologies I work with to bring your ideas to life</p>
+            </div>
+            <div class="skills-container">
+                <div class="skills-categories">
+                    <div class="skill-category active" data-category="frontend">
+                        <i class="fas fa-palette"></i>
+                        <span>Frontend</span>
+                    </div>
+                    <div class="skill-category" data-category="backend">
+                        <i class="fas fa-server"></i>
+                        <span>Backend</span>
+                    </div>
+                    <div class="skill-category" data-category="tools">
+                        <i class="fas fa-tools"></i>
+                        <span>Tools & Cloud</span>
+                    </div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card frontend active" data-skill="html">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3>HTML5</h3>
+                        <p>Semantic markup and modern web standards</p>
+                        <div class="skill-level">
+                            <div class="level-bar" style="--level: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card frontend active" data-skill="css">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3>CSS3</h3>
+                        <p>Responsive design and modern styling</p>
+                        <div class="skill-level">
+                            <div class="level-bar" style="--level: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card frontend active" data-skill="javascript">
+                        <div class="skill-icon">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p>ES6+ and modern JavaScript development</p>
+                        <div class="skill-level">
+                            <div class="level-bar" style="--level: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card frontend active" data-skill="react">
+                        <div class="skill-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <h3>React</h3>
+                        <p>Component-based UI development</p>
+                        <div class="skill-level">
+                            <div class="level-bar" style="--level: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card frontend active" data-skill="typescript">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>TypeScript</h3>
+                        <p>Type-safe JavaScript development</p>
+                        <div class="skill-level">
+                            <div class="level-bar" style="--level: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card backend" data-skill="csharp">
+                        <div class="skill-icon">
+                            <i class="fas fa-hashtag"></i>
+                        </div>
+                        <h3>C#</h3>
+                        <p>Backend development with .NET</p>
+                        <div class="skill-level">
+                            <div class="level-bar" style="--level: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card backend" data-skill="sql">
+                        <div class="skill-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>SQL</h3>
+                        <p>Database design and management</p>
+                        <div class="skill-level">
+                            <div class="level-bar" style="--level: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card tools" data-skill="aws">
+                        <div class="skill-icon">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        <h3>AWS</h3>
+                        <p>Cloud services and deployment</p>
+                        <div class="skill-level">
+                            <div class="level-bar" style="--level: 65%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card tools" data-skill="deployment">
+                        <div class="skill-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Deployment</h3>
+                        <p>CI/CD and hosting solutions</p>
+                        <div class="skill-level">
+                            <div class="level-bar" style="--level: 70%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card frontend active" data-skill="design">
+                        <div class="skill-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p>User-centered design principles</p>
+                        <div class="skill-level">
+                            <div class="level-bar" style="--level: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What I Offer</span>
+                <h2>Services</h2>
+                <p>Comprehensive web solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/banner7.jpg-7Lu8giIM3c0YnWHA3fabkRQ8UasoeV.jpeg" alt="Frontend Development" />
+                        <div class="service-overlay">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Frontend Development</h3>
+                        <p>
+                            Creating stunning, responsive user interfaces that provide exceptional user experiences. 
+                            I use modern frameworks like React and ensure your website looks perfect on all devices.
+                        </p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Responsive Web Design</li>
+                            <li><i class="fas fa-check"></i> React Applications</li>
+                            <li><i class="fas fa-check"></i> Performance Optimization</li>
+                            <li><i class="fas fa-check"></i> Cross-browser Compatibility</li>
+                        </ul>
+                        <div class="service-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/banner4.jpg-BJ7nADRpty176RiKne4KOAWGPJFUHl.jpeg" alt="Backend Development" />
+                        <div class="service-overlay">
+                            <i class="fas fa-server"></i>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Backend Development</h3>
+                        <p>
+                            Building robust server-side applications and APIs that power your web applications. 
+                            I ensure secure, scalable, and efficient backend solutions.
+                        </p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> RESTful API Development</li>
+                            <li><i class="fas fa-check"></i> Database Design & Management</li>
+                            <li><i class="fas fa-check"></i> Server Architecture</li>
+                            <li><i class="fas fa-check"></i> Security Implementation</li>
+                        </ul>
+                        <div class="service-tech">
+                            <span>C#</span>
+                            <span>.NET</span>
+                            <span>SQL</span>
+                            <span>APIs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/banner5-DZG9iLMTj3x1orkaM4vJiqmDlTuW1f.webp" alt="Full-Stack Development" />
+                        <div class="service-overlay">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Full-Stack Solutions</h3>
+                        <p>
+                            Complete web application development from concept to deployment. I handle both 
+                            frontend and backend to deliver comprehensive digital solutions.
+                        </p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> End-to-end Development</li>
+                            <li><i class="fas fa-check"></i> Cloud Deployment (AWS)</li>
+                            <li><i class="fas fa-check"></i> Maintenance & Support</li>
+                            <li><i class="fas fa-check"></i> Performance Monitoring</li>
+                        </ul>
+                        <div class="service-tech">
+                            <span>Full-Stack</span>
+                            <span>AWS</span>
+                            <span>Deployment</span>
+                            <span>DevOps</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Me Section -->
+    <section class="why-choose">
+        <div class="container">
+            <div class="why-choose-content">
+                <div class="why-choose-text">
+                    <h2>Why Choose a <span class="highlight">Fresh Developer</span>?</h2>
+                    <p>
+                        While I may be new to the professional world, I bring unique advantages that 
+                        established developers might not offer.
+                    </p>
+                    <div class="advantages">
+                        <div class="advantage">
+                            <div class="advantage-icon">
+                                <i class="fas fa-dollar-sign"></i>
+                            </div>
+                            <div class="advantage-content">
+                                <h4>Competitive Pricing</h4>
+                                <p>High-quality work at budget-friendly rates as I build my portfolio</p>
+                            </div>
+                        </div>
+                        <div class="advantage">
+                            <div class="advantage-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="advantage-content">
+                                <h4>Dedicated Time</h4>
+                                <p>Your project gets my full attention and dedication</p>
+                            </div>
+                        </div>
+                        <div class="advantage">
+                            <div class="advantage-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="advantage-content">
+                                <h4>Latest Technologies</h4>
+                                <p>Fresh knowledge of the newest tools and best practices</p>
+                            </div>
+                        </div>
+                        <div class="advantage">
+                            <div class="advantage-icon">
+                                <i class="fas fa-handshake"></i>
+                            </div>
+                            <div class="advantage-content">
+                                <h4>Personal Touch</h4>
+                                <p>Direct communication and personalized service</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-choose-visual">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/51306187-thin-line-flat-design-banner-of-website-design-development-modern-vector-illustration-concept-of-wor.jpg-4P3LHjB8BLlDnLPoFyfehMra9M5Jon.jpeg" alt="Web Design Process" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2>Let's Work Together</h2>
+                <p>Ready to bring your ideas to life? Let's start a conversation!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>webdevp.2412@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 9050613460</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Sector 20<br>Panchkula, HR 134116<br>India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                                <label for="name">Your Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                                <label for="email">Your Email</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>&lt;WEBDEVP/&gt;</h3>
+                    <p>Crafting digital experiences with passion and precision.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#services">Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">Frontend Development</a></li>
+                            <li><a href="#services">Backend Development</a></li>
+                            <li><a href="#services">Full-Stack Solutions</a></li>
+                            <li><a href="#services">Web Design</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Connect</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="mailto:webdevp.2412@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 WEBDEVP. All rights reserved. | Made with <i class="fas fa-heart"></i> in India</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
